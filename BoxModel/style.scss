@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.exemploElementoBlock{
+    border: solid 5px red;
+    width: 400px;
+}
+
+.exemploElementoInline{
+    border: solid 5px blue;
+}
+
+.exemploDisplayInlineBlock{
+    
+    h2{
+        border: solid 5px;
+        display: inline-block;
+        width: 200px;
+        padding-left: 40px;
+    }
+}
+
+.exemploRGB{
+    //os valores são de 0 a 255 (0 = nada)
+    background-color: rgb(50, 125, 76);
+}
+
+.exemploHexadecimal{
+    //0 a 9(255) e A(0) ao F(255) - máximo de caracteres é 6
+    background-color: #fb009f;
+}

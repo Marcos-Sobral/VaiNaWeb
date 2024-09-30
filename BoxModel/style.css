@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.exemploElementoBlock {
+  border: solid 5px red;
+  width: 400px;
+}
+
+.exemploElementoInline {
+  border: solid 5px blue;
+}
+
+.exemploDisplayInlineBlock h2 {
+  border: solid 5px;
+  display: inline-block;
+  width: 200px;
+  padding-left: 40px;
+}
+
+.exemploRGB {
+  background-color: rgb(50, 125, 76);
+}
+
+.exemploHexadecimal {
+  background-color: #fb009f;
+}/*# sourceMappingURL=style.css.map */
