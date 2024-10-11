@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-dark{
+    background-color: #1f2937;
+}
+
+h1{
+    color: #fff;
+}
+
+.p-2{
+    padding: 2%;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.text_label{
+    color: #fff;
+    margin-left: 8%;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.text_white{
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    padding: 2%;
+    margin: 0;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.d-grid_column_3{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.d_flex_direction_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify_between{
+    justify-content: space-between;
+}
+
+.button_green{
+    display: block;
+    background-color: #fff;
+    font-size: medium;
+    font-weight: bolder;
+    color: #8a9a5b;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: #fff 1px solid;
+    border-radius: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button_green:hover{
+    background-color: #8a9a5b;
+    color: #fff;
+}
+
+.button_purple{
+    display: block;
+    background-color: #fff;
+    font-size: medium;
+    font-weight: bolder;
+    color: #8c51fe;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: #8c51fe 1px solid;
+    border-radius: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button_purple:hover{
+    background-color: #8c51fe;
+    color: #fff;
+}
+
+input[type="text"], input[type="number"], input [type="file"],
+input[type="password"], input[type="year"], input[type="email"], select{
+    display: block;
+    width: max-content;
+    font-size: large;
+    font-weight: bold;
+    color: #8a9a5b;
+    padding: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: #8a9a5b 2px solid;
+    border-radius: 15px;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #8a9a5b;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #6f7a4b;
+}

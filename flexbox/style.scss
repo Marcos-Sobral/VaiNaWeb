@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    
+}
+
+ul{
+    border: solid red;
+    height: 16vh;
+    text-align: center;
+    list-style: none; // remove as bolinhas de numeração dos itens da lista
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    // EXPLICAÇÃO
+    // display:flex; -> ele é mais uma das propriedades de posicionamento e espaçamento  do CSS junto a ele nós ganhamos uma quantidade muito grande de propriedades e valores de espaçamento de forma totalmente flexível, sem ocorrer o risco de quebrar nossa página.
+
+    // justify-content -> atua no espaçamento e 
+
+    // posicionamento das informações na horizontal.
+    //  - flex-start -> posiciona os itens na esquerda na horizontal
+    //  - center -> posiciona os itens no centro na horizontal
+    //  - flex-end -> posiciona os itens na direita na horizontal
+
+    // Espaçamento das informações na horizontal
+    // - space-evely minimo
+    // - space-around médio
+    // - space-between máximo
+    
+}
+
+li{
+    background-color: tomato;
+    margin-bottom: 5px;
+}
+
+img{
+    width: 40vw;
+}
+
+.logo{
+    width: 10vw;
+}
+
+main{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px pink;
+}

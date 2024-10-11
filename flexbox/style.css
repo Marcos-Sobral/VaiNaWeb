@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  border: solid red;
+  height: 16vh;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  background-color: tomato;
+  margin-bottom: 5px;
+}
+
+img {
+  width: 40vw;
+}
+
+.logo {
+  width: 10vw;
+}
+
+main {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  border: solid 5px pink;
+}/*# sourceMappingURL=style.css.map */
