@@ -63,6 +63,62 @@ button{
     color: #000;
 }
 
+//MAIN
+main{
+    background-color: #000;
+    color: #fff;
+}
+
+.caixaTitulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-weight: 400px;
+    height: 120px
+}
+
+.caixaTitulo img{
+    width: 60px;
+    transform: scaleX(-1);
+}
+
+.caixaEp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    section{
+        width: 25%;
+        max-width: 100%;
+        justify-content: space-around;
+        position: relative;
+        img{
+            width: 25vw;
+            border-radius: 3px;
+            display: block;
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    height: 9.2vh;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2em;
+    font-weight: bold;
+    padding: 0 2vw;
+    background-color: #000;
+}
+
+// responsivo
+
 @media (max-width:900px){
     header button{
         padding: 10px 10px;
@@ -70,6 +126,19 @@ button{
     header section{
         width: 30%
     }
+    .caixaEp{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+        padding: 2%;
+        section{
+            width: 85%;
+            justify-self: center;
+            img{
+                width: 40vw;
+            }
+        }
+    }    
 }
 
 @media (max-width:678px){
@@ -79,6 +148,20 @@ button{
     header section{
         width: 60%
     }
+    .caixaEp{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2em;
+        padding: 2%;
+        section{
+            width: 100%;
+            text-align: center;
+            justify-self: center;
+            img{
+                width: 40vw;
+            }
+        }
+    } 
 }
 //MAIN
 
